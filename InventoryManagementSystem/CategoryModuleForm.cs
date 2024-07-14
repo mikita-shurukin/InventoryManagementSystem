@@ -13,7 +13,7 @@ namespace InventoryManagementSystem
 {
     public partial class CategoryModuleForm : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Zver\Documents\dbIMS.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\dbIMS.mdf;Integrated Security=True;Connect Timeout=30");
         SqlCommand cm = new SqlCommand();
         public CategoryModuleForm()
         {
