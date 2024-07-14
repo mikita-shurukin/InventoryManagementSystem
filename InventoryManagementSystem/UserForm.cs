@@ -25,6 +25,7 @@ namespace InventoryManagementSystem
         public void LoadUser()
         {
             int i = 0;
+            dgvUser.Rows.Clear();
             cm = new SqlCommand("SELECT * FROM tbUser", con);
             con.Open();
             dr = cm.ExecuteReader();
@@ -74,6 +75,16 @@ namespace InventoryManagementSystem
                 }
             }
             LoadUser();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

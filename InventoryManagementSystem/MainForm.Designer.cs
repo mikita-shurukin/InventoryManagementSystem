@@ -188,6 +188,7 @@
             this.btnOrders.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnOrders.TabIndex = 4;
             this.btnOrders.TabStop = false;
+            this.btnOrders.Click += new System.EventHandler(this.btnOrders_Click);
             // 
             // btnUsers
             // 
@@ -213,6 +214,7 @@
             this.btnCategories.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnCategories.TabIndex = 2;
             this.btnCategories.TabStop = false;
+            this.btnCategories.Click += new System.EventHandler(this.btnCategories_Click);
             // 
             // btnCustomer
             // 
@@ -225,6 +227,7 @@
             this.btnCustomer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnCustomer.TabIndex = 1;
             this.btnCustomer.TabStop = false;
+            this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
             // 
             // btnProduct
             // 
@@ -237,6 +240,7 @@
             this.btnProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnProduct.TabIndex = 0;
             this.btnProduct.TabStop = false;
+            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
             // MainForm
             // 
